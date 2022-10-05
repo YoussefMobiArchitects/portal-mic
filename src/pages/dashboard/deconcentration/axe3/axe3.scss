@@ -1,0 +1,138 @@
+.container-axe3 {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .container-title-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .rectangle-3 {
+        height: 16px;
+        width: 4px;
+        background-color: #3a497b;
+    }
+    .txt-title-list {
+        color: #3a497b;
+        font-family: ArbFONTS-Droid-Arabic-Kufi-Bold;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.22px;
+        line-height: 25px;
+        white-space: initial;
+        margin: 0px 10px;
+    }
+    .btn-add-status-objectifs {
+        color: #ffffff !important;
+        background-color: #081152 !important;
+        border: 1px solid #081152 !important;
+        font-family: ArbFONTS-Droid-Arabic-Kufi-Bold !important;
+        font-size: 13px !important;
+        height: 40px !important;
+    }
+    .txt-top-header-table-status-objectifs {
+        height: 40px;
+        border-radius: 4px;
+        background-color: #f5f6f9;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        color: #3a497b;
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        display: flex;
+        align-items: center;
+        line-height: 16px;
+        padding: 0px 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .txt-title-sub-header {
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #525156;
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 20px;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+    }
+    .style-align-item-flex-start {
+        align-items: flex-start !important;
+        padding-right: 5px;
+    }
+    .rectangle-item-diffusion {
+        box-sizing: border-box;
+        border: 1px solid #e9ebec;
+        border-radius: 4px;
+        background-color: #ffffff;
+        padding: 15px;
+        color: #202125;
+        font-family: Rubik-Regular;
+        font-size: 15px;
+        letter-spacing: -0.25px;
+        line-height: 22px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 67px;
+    }
+    .rectangle-item-diffusion-first-element {
+        box-sizing: border-box;
+        border: 1px solid #e9ebec;
+        border-radius: 4px;
+        background-color: #ffffff;
+        padding: 15px;
+        color: #191717;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 27px;
+        height: 67px;
+
+    }
+    .div-footer-element {
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #081152;
+        border: 1px solid #e9ebec;
+        border-radius: 4px;
+        background-color: #f5f6f9;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 27px;
+        height: 67px;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+    .div-footer-element-first {
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #081152;
+        border: 1px solid #e9ebec;
+        border-radius: 4px;
+        background-color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 27px;
+        cursor: pointer;
+        height: 67px;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,82 @@
+.container-consulter-convention-page {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .box-info-consulter-conv {
+        box-sizing: border-box;
+        // height: 93px;
+        border: 1px solid #edf8fe;
+        border-radius: 4px;
+        background-color: #f7fbfe;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 20px;
+        margin-bottom: 27px;
+        .container-icon-info-consulter-conv {
+            height: 50px;
+            min-width: 50px;
+            background-color: #edf8fe;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #3577f1;
+        }
+        .txt-info-consulter-conv {
+            color: #59667c;
+            font-family: Rubik-Regular;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: -0.27px;
+            line-height: 25px;
+            padding: 0px 20px;
+            // text-align: justify;
+            white-space: initial;
+        }
+    }
+    .btn-switch-section-consult-conv-active {
+        background-color: #031c3e !important;
+        min-height: 40px;
+        height: -webkit-fill-available !important;
+        min-width: 70px;
+        width: 100%;
+        border-radius: 4px;
+        font-family: Rubik-Regular !important;
+        color: #ffffff;
+        letter-spacing: -0.23px !important;
+        line-height: 17px !important;
+        text-align: center !important;
+        border: 1px solid #f2f2f2;
+        text-transform: none !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        padding: 5px 15px !important;
+    }
+    .btn-switch-section-consult-conv-inactive {
+        background-color: #ffffff !important;
+        min-height: 40px;
+        height: -webkit-fill-available !important;
+        min-width: 70px;
+        width: 100%;
+        border-radius: 4px;
+        font-family: Rubik-Regular !important;
+        color: #031c3e;
+        letter-spacing: -0.23px !important;
+        line-height: 17px !important;
+        text-align: center !important;
+        border: 1px solid #f2f2f2;
+        text-transform: none !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        padding: 5px 15px !important;
+    }
+}
+
+// -----------------------------------
+
+

@@ -1,0 +1,50 @@
+.container-item-historique-engagement {
+    box-sizing: border-box;
+    border: 1px solid #e9e9e9;
+    background-color: #ffffff;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    .header-item-historique-engagement {
+        border-radius: 4px 4px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #e9e9e9;
+        padding: 15px;
+        .txt-date {
+            color: #5b5e6e;
+            font-family: Rubik-regular;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 20px;
+        }
+        .txt-val-date {
+            color: #242930;
+            font-family: Rubik-regular;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.23px;
+            line-height: 23px;
+            text-align: right;
+        }
+    }
+    .content-engagement {
+        padding: 20px;
+        .txt-engagement-observations {
+            color: #242930;
+            font-family: Rubik-regular;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: -0.22px;
+            line-height: 20px;
+            margin-bottom: 5px;
+        }
+        .val-engagement {
+            color: #5b5e6e;
+            font-family: Rubik-regular;
+            font-size: 14px;
+            letter-spacing: -0.23px;
+            line-height: 23px;
+        }
+    }
+}

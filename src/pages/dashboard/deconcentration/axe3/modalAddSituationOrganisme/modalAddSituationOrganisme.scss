@@ -1,0 +1,71 @@
+.txt-title-modal-add-situation-organisme {
+    color: #000000;
+    font-family: ArbFONTS-Droid-Arabic-Kufi-Bold !important;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.27px;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+.btn-modal-add-situation-organisme {
+    height: 50px !important;
+    border-radius: 4px !important;
+    background-color: #091451 !important;
+    border: 1px solid #091451 !important;
+    color: #ffffff !important;
+    padding: 0px 20px !important;
+    min-width: 120px;
+    font-family: ArbFONTS-Droid-Arabic-Kufi-Bold !important;
+}
+.footer-modal-add-situation-organisme {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.container-switch {
+    border: 0.1px solid #091451;
+    border-radius: 4px;
+    font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.div-switch-active {
+    height: 40px;
+    background-color: #091451;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.23px;
+    line-height: 27px;
+    cursor: pointer;
+}
+.div-switch-inactive {
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: -0.23px;
+    line-height: 27px;
+    cursor: pointer;
+}
+.font-kufi {
+    font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+}
+.txt-div-year {
+    box-sizing: border-box;
+    height: 50px;
+    border: 1px solid #e4e6ef;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-family: "ArbFONTS-Droid-Arabic-Kufi";
+}

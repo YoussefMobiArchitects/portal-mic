@@ -1,0 +1,104 @@
+.txt-title-modal-add-conv {
+    color: #525156;
+    font-family: Rubik-Regular !important;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.33px;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+.type-partenariat {
+    background-color: #f5f5f5 !important;
+    color: #949597 !important;
+    font-size: 13px !important;
+    font-family: Rubik-Regular !important;
+    text-align: start !important;
+    padding: 10px 20px !important;
+}
+.item-region {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 13px !important;
+    font-family: Rubik-Regular !important;
+    text-align: start !important;
+    padding: 10px 20px !important;
+    font-weight: 700 !important;
+}
+.container-drop-zone {
+    box-sizing: border-box;
+    height: 100px;
+    width: 500px;
+    border: 1px dashed #f2f2f2;
+    border-radius: 6px;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    .container-icon-upload {
+        height: 58px;
+        width: 58px;
+        background-color: #fff8e3;
+        border-radius: 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #dfa600;
+    }
+    .container-label-conv-upload {
+        padding: 0px 10px;
+        .txt-label-conv {
+            color: #0c0d0d;
+            font-family: Rubik-Regular;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: -0.25px;
+            line-height: 18px;
+            margin-bottom: 8px;
+        }
+        .txt-label-info-upload {
+            color: #757575;
+            font-family: Rubik-Regular;
+            font-size: 14px;
+            letter-spacing: -0.23px;
+            line-height: 17px;
+        }
+    }
+    .container-add-icon {
+        box-sizing: border-box;
+        height: 21.5px;
+        width: 21.5px;
+        border: 1.5px dashed #757575;
+        border-radius: 11px;
+        color: #757575;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.footer-modal-add-conv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    .btn-modal-add-convention {
+        height: 50px !important;
+        border-radius: 4px !important;
+        background-color: #031c3e !important;
+        border: 1px solid #031c3e !important;
+        color: #ffffff;
+        padding: 0px 20px !important;
+
+    }
+    .btn-modal-annuler-convention {
+        height: 50px !important;
+        border-radius: 4px !important;
+        background-color: #ffffff !important;
+        border: 1px solid #f0f0f0 !important;
+        color: #231f20 !important;
+        margin: 0px 15px !important;
+        padding: 0px 20px !important;
+    }
+}

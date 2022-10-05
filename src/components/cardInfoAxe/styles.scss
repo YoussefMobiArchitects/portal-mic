@@ -1,0 +1,40 @@
+.container-card-info-axe {
+    border-radius: 4px;
+    padding: 20px;
+    .container-top-card-info-axe {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .div-name-axe {
+            height: 26px;
+            width: fit-content;
+            border-radius: 4px;
+            color: #ffffff;
+            font-family: ArbFONTS-Droid-Arabic-Kufi-Bold;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 25px;
+            padding: 2px 5px;
+        }
+        .div-name-region {
+            color: #021f58;
+            font-family: ArbFONTS-Droid-Arabic-Kufi;
+            font-size: 13px;
+            background-color: #ffffff;
+            padding: 1px;
+            border-radius: 2px;
+            letter-spacing: -0.22px;
+            line-height: 25px;
+            margin: 0px 15px;
+        }
+    }
+    .container-bottom-card-info-axe {
+        font-family: ArbFONTS-Droid-Arabic-Kufi;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: -0.25px;
+        line-height: 22px;
+        white-space: initial;
+        margin-top: 15px;
+    }
+}

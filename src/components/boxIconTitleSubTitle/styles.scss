@@ -1,0 +1,36 @@
+.container-box-icon-title-subtitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .icon-box-icon-title-subtitle {
+        min-height: 40px;
+        min-width: 40px;
+        border-radius: 4px;
+        background-color: #f3f6f9;
+        color: #3577f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-side-box-icon-title-subtitle {
+        margin: 0px 10px;
+        .title-box-icon-title-subtitle {
+            color: #5b5e6e;
+            font-family: Rubik-Regular;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 20px;
+            text-transform: uppercase;
+            white-space: initial;
+        }
+        .subtitle-box-icon-title-subtitle {
+            color: #242930;
+            font-family: Rubik-regular;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: -0.25px;
+            line-height: 23px;
+            white-space: initial;
+        }
+    }
+}

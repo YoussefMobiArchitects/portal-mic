@@ -1,0 +1,616 @@
+@font-face {
+  font-family: "Rubik-Black";
+  src: local("Rubik-Black"), url(./assets/fonts/Rubik-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-BlackItalic";
+  src: local("Rubik-BlackItalic"), url(./assets/fonts/Rubik-BlackItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Bold";
+  src: local("Rubik-Bold"), url(./assets/fonts/Rubik-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-BoldItalic";
+  src: local("Rubik-BoldItalic"), url(./assets/fonts/Rubik-BoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Italic";
+  src: local("Rubik-Italic"), url(./assets/fonts/Rubik-Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Light";
+  src: local("Rubik-Light"), url(./assets/fonts/Rubik-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-LightItalic";
+  src: local("Rubik-LightItalic"), url(./assets/fonts/Rubik-LightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Medium";
+  src: local("Rubik-Medium"), url(./assets/fonts/Rubik-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-MediumItalic";
+  src: local("Rubik-MediumItalic"), url(./assets/fonts/Rubik-MediumItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(./assets/fonts/Rubik-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "ArbFONTS-Droid-Arabic-Kufi-Bold";
+  src: local("ArbFONTS-Droid-Arabic-Kufi-Bold"),
+    url(./assets/fonts/ArbFONTS-Droid-Arabic-Kufi-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ArbFONTS-Droid-Arabic-Kufi";
+  src: local("ArbFONTS-Droid-Arabic-Kufi"), url(./assets/fonts/ArbFONTS-Droid-Arabic-Kufi.ttf) format("truetype");
+}
+@font-face {
+  font-family: "fa-brands-400";
+  src: local("fa-brands-400"), url(./assets/fonts/fa-brands-400.ttf) format("truetype");
+}
+@font-face {
+  font-family: "fa-regular-400";
+  src: local("fa-regular-400"), url(./assets/fonts/fa-regular-400.ttf) format("truetype");
+}
+@font-face {
+  font-family: "fonts/fa-solid-900";
+  src: local("fonts/fa-solid-900"), url(./assets/fonts/fa-solid-900.ttf) format("truetype");
+}
+@font-face {
+  font-family: "fa-v4compatibility";
+  src: local("fa-v4compatibility"), url(./assets/fonts/fa-v4compatibility.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SFNS-Display-Regular";
+  src: local("SFNS-Display-Regular"), url(./assets/fonts/SFNS-Display-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"), url(./assets/fonts/Helvetica.ttf) format("truetype");
+}
+/* @font-face {
+    font-family: 'Lato';
+    font-weight: 900;
+    src: local('Lato'), url(./fonts/Lato-Bold.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-weight: 900;
+    src: local('Lato'), url(./fonts/Lato-Black.otf) format('truetype');
+} */
+
+.root-fill-width {
+  width: fit-content !important;
+  width: -moz-fit-content !important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+// width select
+.muirtl-q7l9ym-MuiFormControl-root {
+  // width: fit-content !important;
+  // width: 1;
+}
+
+/* start:change textField on focus border-color */
+.MuiFormLabel-root.Mui-focused {
+  color: #878a99 !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #878a99 !important;
+}
+/* end:change textField on focus border-color */
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+/* style textfeald select */
+
+// input date
+.muiltr-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: Rubik-Regular !important;
+  height: 51.5px !important;
+  // background-color: #f6f6fa;
+}
+
+.muiltr-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 50px;
+  font-family: Rubik-Regular !important;
+  font-weight: unset;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  border: 0px solid #f2f2f2 !important;
+}
+.muirtl-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 50px;
+  font-family: Rubik-Regular !important;
+  font-weight: unset;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  border: 0px solid #f2f2f2 !important;
+}
+
+.muiltr-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  padding: 0;
+  position: relative;
+  display: block;
+  transform-origin: top left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 24px);
+  position: absolute;
+  left: 0;
+  top: 0px !important;
+  -webkit-transform: translate(14px, 16px) scale(1);
+  -moz-transform: translate(14px, 16px) scale(1);
+  -ms-transform: translate(14px, 16px) scale(1);
+  transform: translate(14px, 16px) scale(1);
+  -webkit-transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  z-index: 1;
+  pointer-events: none;
+
+  font-family: Rubik-Regular !important;
+  color: #858789 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.23px !important;
+  line-height: 17px !important;
+}
+.muirtl-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  padding: 0;
+  position: relative;
+  display: block;
+  transform-origin: top left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 24px);
+  position: absolute;
+  left: 0;
+  top: 0px !important;
+  -webkit-transform: translate(14px, 16px) scale(1);
+  -moz-transform: translate(14px, 16px) scale(1);
+  -ms-transform: translate(14px, 16px) scale(1);
+  transform: translate(14px, 16px) scale(1);
+  -webkit-transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+    max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  z-index: 1;
+  pointer-events: none;
+
+  font-family: ArbFONTS-Droid-Arabic-Kufi-Bold !important;
+  color: #858789 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.23px !important;
+  line-height: 17px !important;
+}
+
+.muiltr-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: -5px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: 4px !important;
+  overflow: hidden;
+  min-width: 0%;
+  // border: 1px solid #f2f2f2 !important;
+  border: 1px solid #e9e9e9 !important;
+}
+.muirtl-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: -5px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: 4px !important;
+  overflow: hidden;
+  min-width: 0%;
+  // border: 1px solid #f2f2f2 !important;
+  border: 1px solid #e9e9e9 !important;
+}
+
+.muiltr-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muiltr-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muiltr-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 32px !important;
+  color: #0c0d0d !important;
+  font-family: Rubik-Regular;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.23px !important;
+  line-height: 17px !important;
+}
+.muirtl-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muirtl-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muirtl-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-left: 32px !important;
+  color: #0c0d0d !important;
+  font-family: Rubik-Regular;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.23px !important;
+  line-height: 17px !important;
+}
+
+// ACCORDION
+
+.muiltr-1fjvggn-MuiPaper-root-MuiAccordion-root {
+  background-color: #fff;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: none;
+  position: relative;
+  -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow-anchor: none;
+  border: 0px solid rgba(0, 0, 0, 0.12) !important;
+  margin-bottom: 20px !important;
+}
+// HEADER ACCORDION
+.muiltr-1amp277-MuiButtonBase-root-MuiAccordionSummary-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 48px;
+  padding: 0px 2px !important;
+  -webkit-transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+
+  height: 60px !important;
+  border: 1px solid #e9e9e9 !important;
+  border-radius: 4px !important;
+  background-color: #f9fafb !important;
+  width: 100% !important;
+}
+// remove top border
+.muiltr-ta84vm-MuiAccordionDetails-root {
+  padding: 8px 16px 16px;
+  padding: 16px;
+  border-top: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+// paddin body
+.muiltr-ta84vm-MuiAccordionDetails-root {
+  padding: 16px 0px !important;
+  border-top: 1pxsolidrgba (0, 0, 0, 0.125);
+}
+
+// -----------
+.muiltr-1dsxwrh-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  /* min-height: 60px; */
+  max-height: 60px !important;
+  border: 1px solid #e9e9e9 !important;
+  border-radius: 4px !important;
+  background-color: #f9fafb !important;
+  padding: 0px 10px !important;
+}
+.muiltr-1dsxwrh-MuiButtonBase-root-MuiAccordionSummary-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 60px !important;
+  padding: 0px 10px !important;
+  -webkit-transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.03);
+  max-height: 60px !important;
+  border: 1px solid #e9e9e9 !important;
+  border-radius: 4px !important;
+  background-color: #f9fafb !important;
+}
+.muiltr-1dsxwrh-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-content {
+  margin-left: 0px !important;
+}
+.muiltr-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 0px #fff, 0px 1px 1px 0px #fff, 0px 1px 3px 0px #fff !important;
+  position: relative;
+  -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow-anchor: none;
+  border-radius: 0;
+}
+.muiltr-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+  margin-bottom: 20px !important;
+}
+.muiltr-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  margin-bottom: 20px !important;
+}
+.muiltr-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+  height: 0px !important;
+}
+.muiltr-a5rdam-MuiGrid-root {
+  // width: calc(100% + 0px) !important;
+}
+.muirtl-a5rdam-MuiGrid-root {
+  // width: calc(100% + 0px) !important;
+}
+// -----------
+
+// scroll
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f7fbfe;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f1f3f4;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  // background: #5A6372;
+  background: #f1f3f4;
+}
+
+// AUTOCOMPLETE
+.muiltr-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding: 9px;
+  height: 52px !important;
+}
+
+.muirtl-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding: 9px;
+  height: 52px !important;
+}
+
+.muirtl-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+  padding: 7.5px 6px 7.5px 4px;
+  font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+  font-size: 14px !important;
+}
+
+// progress
+.muiltr-1hxt08m-MuiLinearProgress-root {
+  height: 6px !important;
+  background-color: #eff2f7 !important;
+  border-radius: 4px !important;
+}
+.muiltr-h8g9t7-MuiLinearProgress-bar1 {
+  background-color: #11b920 !important;
+}
+.muirtl-1hxt08m-MuiLinearProgress-root {
+  height: 6px !important;
+  background-color: #eff2f7 !important;
+  border-radius: 4px !important;
+}
+.muirtl-h8g9t7-MuiLinearProgress-bar1 {
+  background-color: #11b920 !important;
+}
+//
+
+// start dropdownlist
+.muirtl-1uwgr7b-MuiTypography-root {
+  margin: 0 !important;
+  font-family: ArbFONTS-Droid-Arabic-Kufi-Bold !important;
+  text-align: center !important;
+  color: #3a497b !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: -0.22px !important;
+  line-height: 25px !important;
+}
+.muiltr-1uwgr7b-MuiTypography-root {
+  margin: 0 !important;
+  font-family: Rubik-Regular !important;
+  text-align: center !important;
+  color: #3a497b !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: -0.22px !important;
+  line-height: 25px !important;
+}
+.muirtl-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muirtl-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muirtl-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: ArbFONTS-Droid-Arabic-Kufi-Bold !important;
+  font-size: 14px !important;
+}
+.muiltr-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muiltr-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.muiltr-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: Rubik-Regular !important;
+  font-size: 14px !important;
+}
+.muirtl-i4bv87-MuiSvgIcon-root {
+  width: 23px !important;
+  height: 23px !important;
+  font-size: 20.5px !important;
+  // position: absolute !important;
+  // left: -8px !important;
+  overflow: hidden !important;
+}
+// end dropdown list
+
+// START TEXTFEILD FONT
+.muirtl-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+  font-size: 14px !important;
+}
+.muiltr-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: Rubik-Regular !important;
+}
+// END TEXTFEILD FONT
+
+// start style placeholder textField
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  // color: #858789 !important;
+  // font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+  // font-weight: bolder !important;
+  // font-family: Rubik-Regular !important;
+  // font-size: 16px !important;
+  // opacity: 1 !important;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  // color: #858789 !important;
+  // font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+  // font-family: Rubik-Regular !important;
+  // font-size: 14px !important;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  // color: #858789 !important;
+  // font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+  // font-family: Rubik-Regular !important;
+  // font-size: 14px !important;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  // color: #858789 !important;
+  // font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+  // font-family: Rubik-Regular !important;
+  // font-size: 14px !important;
+}
+// end style placeholder
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,21 @@
+@use "../../../theme/variables";
+
+.homePageStyle {
+    color: variables.$green;
+    background-color: gray;
+    .testrtlStyle {
+        // width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+        background-color: brown;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    .btnStyle {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+}

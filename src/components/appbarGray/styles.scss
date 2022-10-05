@@ -1,0 +1,23 @@
+.grayAppbar {
+    background-color: #f8f8f9 !important;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+
+    
+    .subContainerGrayAppbar {
+        display: flex;
+        // margin: 0px 165px;
+        align-items: center;
+        .txtItem {
+            color: #757575;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 15px;
+            margin-right: 15px;
+            font-family: Rubik-Regular;
+        }
+    }
+}

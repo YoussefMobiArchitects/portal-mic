@@ -1,0 +1,32 @@
+.footer-modal-add-conv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    .btn-modal-add-axe {
+        height: 50px !important;
+        border-radius: 4px !important;
+        background-color: #031c3e !important;
+        border: 1px solid #031c3e !important;
+        color: #ffffff;
+        padding: 0px 20px !important;
+        min-width: 120px;
+    }
+    .btn-modal-annuler-axe {
+        height: 50px !important;
+        border-radius: 4px !important;
+        background-color: #ffffff !important;
+        border: 1px solid #f0f0f0 !important;
+        color: #231f20 !important;
+        margin: 0px 15px !important;
+        padding: 0px 20px !important;
+        min-width: 120px;
+    }
+}
+.div-style-error-contreller {
+    height: 20px;
+    font-size: 11px;
+    margin-top: 2px;
+    color: red;
+    padding: 0px 10px;
+}

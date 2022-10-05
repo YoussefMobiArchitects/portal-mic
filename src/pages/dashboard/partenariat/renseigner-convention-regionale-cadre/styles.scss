@@ -1,0 +1,93 @@
+.container-renseigner-convention {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .box-info-conv {
+        box-sizing: border-box;
+        // height: 93px;
+        border: 1px solid #edf8fe;
+        border-radius: 4px;
+        background-color: #f7fbfe;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 20px;
+        .container-icon-info-conv {
+            height: 50px;
+            min-width: 50px;
+            background-color: #edf8fe;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #3577f1;
+        }
+        .txt-info-conv {
+            color: #59667c;
+            font-family: Rubik-Regular;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: -0.27px;
+            line-height: 25px;
+            padding: 0px 20px;
+            text-align: justify;
+        }
+    }
+
+    .btns-footer-nav-steps {
+        display: flex;
+        margin-top: 50px;
+        .btn-next {
+            font-family: Rubik-Regular;
+            color: #ffffff;
+            background-color: #031c3e;
+            box-shadow: 0 0 4px 0 rgba(171, 169, 169, 0.09);
+            height: 50px !important;
+            min-width: 130px;
+        }
+        .btn-prev {
+            font-family: Rubik-Regular;
+            color: #031c3e;
+            background-color: #ffffff;
+            box-shadow: 0 0 4px 0 rgba(171, 169, 169, 0.09);
+            height: 50px !important;
+            min-width: 130px;
+            border: 1px solid #E9E9E9;
+        }
+        .btn-save-steps{
+            height: 50px;
+            width: 50px;
+            border: 1px solid #E9E9E9;
+            border-radius: 4px;
+            background-color: #ffffff;
+        }
+    }
+}
+
+.carousel {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.carousel-item {
+    display: inline-flex;
+    // align-items: center;
+    justify-content: center;
+    // background-color: green;
+}
+.indicators {
+    display: flex;
+    justify-content: center;
+    button {
+        margin: 5px;
+    }
+}

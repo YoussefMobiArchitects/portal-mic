@@ -1,0 +1,166 @@
+.container-detail-projet-page {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .header-info-detail-proj {
+        padding: 20px;
+        border-radius: 4px;
+        background-color: #f7fbfe;
+        margin-bottom: 20px;
+        .container-left-side-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .rectangle-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 54px;
+                width: 54px;
+                border-radius: 4px;
+                background-color: #ffffff;
+                color: #3778f1;
+            }
+            .title-proj {
+                color: #031c3e;
+                font-family: Rubik-Regular;
+                font-size: 20px;
+                letter-spacing: -0.33px;
+                line-height: 22px;
+                white-space: initial;
+                margin-bottom: 5px;
+                font-weight: 600;
+            }
+            .last-maj {
+                color: #222a35;
+                font-family: Rubik-Regular;
+                font-size: 13px;
+                letter-spacing: -0.22px;
+                line-height: 15px;
+                white-space: initial;
+            }
+        }
+        .status-proj {
+            border-radius: 4px;
+            // background-color: #ffad00;
+            // color: #ffffff;
+            padding: 4px 10px;
+            font-family: Rubik-Regular;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 15px;
+            width: -moz-fit-content;
+            width: fit-content;
+            height: fit-content;
+        }
+    }
+    // 1
+    .container-item-conv-concernee {
+        box-sizing: border-box;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        background-color: #ffffff;
+        display: flex;
+        padding: 15px 20px;
+        align-items: center;
+    }
+    .rectangle-icon-two {
+        min-height: 40px;
+        min-width: 40px;
+        border-radius: 4px;
+        background-color: #f3f6f9;
+        display: flex;
+        align-items: center;
+        color: #3577f1;
+        justify-content: center;
+    }
+    .name-conv-concernee {
+        color: #242930;
+        font-family: Rubik-Regular;
+        font-size: 14px;
+        letter-spacing: -0.23px;
+        line-height: 23px;
+        white-space: initial;
+        margin-left: 10px;
+    }
+    // 2
+    .div-container {
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 15px 0px;
+    }
+    // 3
+    .container-item-contribution-financiere {
+        // box-sizing: border-box;
+        // border: 1px solid #e9e9e9;
+        // border-radius: 4px;
+        // background-color: #ffffff;
+        padding: 0px 20px;
+        height: 80px;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        background-color: #ffffff;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .txt-label-item-table {
+        color: #202125;
+        font-family: Rubik-Regular;
+        font-size: 15px;
+        letter-spacing: -0.25px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+    .container-header-contribution-financiere {
+        box-sizing: border-box;
+        background-color: #ffffff;
+        padding: 20px 20px;
+    }
+    .txt-label-headeritem-table {
+        color: #525156;
+        font-family: Rubik-Regular;
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        line-height: 15px;
+    }
+    // 4
+    .top-header-engagement-financiere {
+        box-sizing: border-box;
+        border: 1px solid #e9e9e9;
+        border-radius: 4px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    .div-comment {
+        white-space: pre;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .div-status-deblocage {
+        width: fit-content;
+        padding: 3px 5px;
+        border-radius: 4px;
+        white-space: initial;
+        font-family: "Rubik-Regular";
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        line-height: 15px;
+        font-weight: 200;
+    }
+    .btn-icon-clock {
+        height: 26px;
+        width: 26px;
+        background-color: #eff5ff !important;
+        border-radius: 13px !important;
+        color: #4682f1 !important;
+        margin: 0px 15px !important;
+    }
+}

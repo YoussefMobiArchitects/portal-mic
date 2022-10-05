@@ -1,0 +1,150 @@
+::placeholder {
+    color: #878a99;
+    font-family: Rubik-Regular;
+    font-size: 14px;
+    letter-spacing: -0.23px;
+    line-height: 17px;
+}
+.container-liste-convention {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .container-item-style{
+        height: 290px;
+    }
+    .txt-name-region {
+        color: #171f2e;
+        font-family: Rubik-Regular;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+        line-height: 28px;
+    }
+    .container-filters {
+        text-align: end;
+        .btns-sections-conv-proj {
+            display: flex;
+            width: 240px;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid #f1f1f2;
+            .btn-conv-proj-section-active {
+                width: 120px;
+                border-radius: 0px;
+                font-family: Rubik-Regular;
+                color: #ffffff;
+                letter-spacing: -0.23px;
+                line-height: 17px;
+                text-align: center;
+                // text-transform: none;
+                font-weight: 600;
+                font-size: 14px;
+                padding: 0px 13px;
+                height: 40px;
+                background-color: #031c3e;
+                box-shadow: 0 0 4px 0 rgba(171, 169, 169, 0.09);
+            }
+            .btn-conv-proj-section-inactive {
+                width: 120px;
+                border-radius: 0px;
+                font-family: Rubik-Regular;
+                color: #031c3e;
+                letter-spacing: -0.23px;
+                line-height: 17px;
+                text-align: center;
+                // text-transform: none;
+                font-weight: 600;
+                font-size: 14px;
+                padding: 0px 13px;
+                height: 40px;
+                background-color: #ffffff;
+                box-shadow: 0 0 4px 0 rgba(171, 169, 169, 0.09);
+            }
+        }
+
+        .btn-filter-conv {
+            height: 40px;
+            width: 40px;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            background-color: #ffffff;
+        }
+        .formInput {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 40px;
+            border: 1px solid #f2f2f2 !important;
+            border-radius: 4px;
+            padding: 0px 7px !important;
+        }
+        .input-rechercher-conv {
+            padding: 0px 5px !important;
+            width: 260px;
+            border: 0px solid #f2f2f2 !important;
+            // padding: 0px 7px !important;
+            // width: 260px;
+            // height: 40px !important;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            // border: 1px solid #f2f2f2 !important;
+            // border-radius: 4px;
+            // background-color: #ffffff;
+        }
+        // label {
+        //     color: #878a99 !important;
+        //     font-family: "Rubik-Regular" !important;
+        //     font-size: 14px !important;
+        //     letter-spacing: -0.23px !important;
+        //     line-height: 11px !important;
+        //     top: -0px !important;
+        // }
+        .btn-add-conv {
+            min-width: 70px;
+            border: 1px solid #031c3e;
+            background-color: #031c3e;
+            color: #ffffff;
+            height: 40px;
+            box-shadow: 0 0 4px 0 rgba(171, 169, 169, 0.09);
+        }
+    }
+    .container-bar {
+        height: 44px;
+        border-radius: 4px;
+        // background-color: #f3f6f9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 14px;
+        margin: 20px 0px;
+        .txt-bar {
+            // color: #0093ff;
+            font-family: Rubik-Regular;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: -0.27px;
+            line-height: 19px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .btn-voir-tous {
+            background-color: white;
+            height: 30px;
+            min-width: 70px;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            font-family: "Rubik-Regular";
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            line-height: 14px;
+            text-transform: lowercase;
+            color: #031c3e;
+        }
+    }
+}

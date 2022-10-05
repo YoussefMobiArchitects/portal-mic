@@ -1,0 +1,452 @@
+$midnight: #2c3e50;
+$clouds: #ecf0f1;
+// General
+.input-style {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+// Layout
+.row {
+    display: flex;
+    .col {
+        flex: 1;
+        &:last-child {
+            margin-left: 1em;
+        }
+    }
+}
+/* Accordion styles */
+.tabs {
+    // border-radius: 8px;
+    // overflow: hidden;
+    // box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+}
+.tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    &-label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 37px;
+        border-radius: 4px;
+        color: black;
+        background-color: #edf8fe;
+        cursor: pointer;
+        /* Icon */
+        &:hover {
+            // background: darken($midnight, 10%);
+        }
+        &::after {
+            content: "\276F";
+            width: 1em;
+            height: 1em;
+            text-align: center;
+            transition: all 0.35s;
+            color: #031c3e;
+            font-weight: 100;
+            font-size: 14px;
+            font-family: "Rubik-Regular";
+        }
+    }
+    &-content {
+        // max-height: 0;
+        height: 0;
+        color: $midnight;
+        transition: all 0.35s;
+    }
+    &-close {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1em;
+        font-size: 0.75em;
+        // background: $midnight;
+        cursor: pointer;
+        &:hover {
+            // background: darken($midnight, 10%);
+        }
+    }
+}
+
+// :checked
+input:checked {
+    + .tab-label {
+        // background: darken($midnight, 10%);
+        &::after {
+            transform: rotate(90deg);
+        }
+    }
+    ~ .tab-content {
+        // max-height: 100vh;
+        height: fit-content;
+        // padding: 1em;
+    }
+}
+.container-txt-num-section-consulter-conv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.num-section-consulter-conv {
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3577f1;
+    font-family: Rubik-Regular;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.22px;
+    line-height: 15px;
+}
+.txt-title-section-consulter-conv {
+    color: #202125;
+    font-family: Rubik-Regular;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -0.22px;
+    line-height: 20px;
+    margin: 0px 5px;
+}
+
+//------------------------------
+.card-content {
+    box-sizing: border-box;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    width: 100%;
+    overflow: hidden;
+}
+.txt-objectifs-step2 {
+    color: #5b5e6e;
+    font-family: Rubik-Regular;
+    font-size: 13px;
+    letter-spacing: -0.22px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+.container-axe-item {
+    height: 80px;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.grid-item-axe {
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    align-items: center;
+}
+.grid-item-item-axe {
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    align-items: center;
+}
+.container-name-axe {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .container-icon-target {
+        height: 37px;
+        width: 37px;
+        border-radius: 4px;
+        background-color: #edf8fe;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #3577f1;
+        margin: 0px 0px 0px 15px;
+    }
+    .container-hidden-icon {
+        height: 37px;
+        width: 37px;
+        margin: 0px 15px;
+    }
+    .txt-obj-item {
+        color: #202125;
+        font-family: Rubik-Regular;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -0.23px;
+        line-height: 17px;
+        white-space: initial;
+    }
+    .txt-obj-item-ellipsise {
+        color: #202125;
+        font-family: Rubik-Regular;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -0.23px;
+        line-height: 17px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .txt-download-pv {
+        font-family: Rubik-Regular;
+        color: #4682f1;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: -0.23px;
+        line-height: 23px;
+        white-space: initial;
+        text-decoration: underline;
+    }
+    .container-status-proj {
+        border-radius: 4px;
+        font-family: Rubik-Regular;
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        line-height: 15px;
+        padding: 5px 10px;
+        white-space: initial;
+        text-align: center;
+    }
+}
+.txt-header-table {
+    color: #525156;
+    font-family: Rubik-Regular;
+    font-size: 13px;
+    letter-spacing: -0.22px;
+    line-height: 15px;
+}
+.container-total-axes {
+    height: 50px;
+    border: 1px solid #c3ebb7;
+    border-radius: 4px;
+    background-color: #f5fff2;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    .txt-div-totals {
+        color: #599f3e;
+        font-family: Rubik-Regular;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: -0.23px;
+        line-height: 17px;
+    }
+}
+.btn-icon-clock {
+    height: 26px;
+    width: 26px;
+    background-color: #eff5ff !important;
+    border-radius: 13px !important;
+    color: #4682f1 !important;
+    margin: 0px 15px !important;
+}
+.rectangle-file-download {
+    box-sizing: border-box;
+    height: 61px;
+    border: 1px dashed #ebebeb;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    cursor: pointer;
+    .container-left-side-pdf {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .container-icon-paper-pdf {
+            height: 40px;
+            width: 40px;
+            border-radius: 4px;
+            background-color: #f3f6f9;
+            color: #3577f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .txt-name-conv-pdf {
+            color: #202125;
+            font-family: Rubik-Regular;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.23px;
+            line-height: 17px;
+            margin: 0px 10px;
+        }
+    }
+}
+
+.txt-contribution-financiere-mic-projets {
+    color: #5b5e6e;
+    font-family: Rubik-Regular;
+    font-size: 13px;
+    letter-spacing: -0.22px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.container-sub-header-accodion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .container-icon-bug {
+        height: 40px;
+        width: 40px;
+        border-radius: 4px;
+        background-color: #f3f6f9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #3577f1;
+    }
+    .txt-title-header-accordion {
+        color: #202125;
+        font-family: Rubik-Regular;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -0.25px;
+        line-height: 18px;
+        margin: 0px 10px;
+    }
+}
+.scrollable-div {
+    width: 100%;
+    display: flex;
+    overflow-x: overlay;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.container-sub-header-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.div-name-proj {
+    white-space: initial;
+    height: 80px;
+    width: 317px;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #202125;
+    font-family: "Rubik-Regular";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.23px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    text-align: start;
+    margin-right: 8px;
+}
+.div-header-name-proj {
+    white-space: initial;
+    height: 30px;
+    width: 317px;
+    background-color: #ffffff;
+    color: #202125;
+    font-family: "Rubik-Regular";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.23px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    text-align: start;
+    margin-right: 10px;
+}
+.div-item-contri {
+    width: 200px;
+    height: 80px;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    margin-right: 8px;
+    color: #202125;
+    font-family: 'Rubik-Regular';
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.23px;
+    line-height: 17px;
+    .div-contri-prev {
+        width: 100px;
+        height: 100%;
+        border-right: 1px solid #e9e9e9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-contri-debloq {
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div-txt-prev-debloq{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    font-family: "Rubik-Regular";
+    color: #525156;
+    font-size: 13px;
+    margin-right: 8px;
+    .div-txt-prev {
+        width: 100px;
+        height: 100%;
+        border-right: 1px solid #e9e9e9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .div-txt-debloq {
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.div-txt-annee{
+    width: 200px;
+    height: 30px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Rubik-Regular";
+    color: #525156;
+    font-size: 13px;
+    margin-right: 8px;
+}

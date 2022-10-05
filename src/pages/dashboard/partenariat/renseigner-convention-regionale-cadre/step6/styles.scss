@@ -1,0 +1,33 @@
+.container-step6 {
+    width: 100%;
+    .btn-delete-obj {
+        background-color: #c6082b !important;
+        color: white;
+        margin: 0px 4px;
+        height: 50px;
+        width: 50px;
+    }
+    .container-add-axe {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        align-items: center;
+        .txt-add-axe {
+            color: #202125;
+            font-family: Rubik-Regular;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: -0.25px;
+            line-height: 18px;
+        }
+        .btn-add-axe {
+            font-family: Rubik-Regular;
+            color: #ffffff;
+            background-color: #5a6372;
+            box-shadow: 0 0 4px 0 rgba(171, 169, 169, 0.09);
+            height: 40px !important;
+            min-width: 130px;
+        }
+    }
+}

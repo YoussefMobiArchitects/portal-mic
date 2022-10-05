@@ -1,0 +1,164 @@
+.container-partenariat {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .divformInput {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .txt-partenariats-national-style {
+        font-size: 18px;
+        color: #031c3e;
+        font-weight: bold;
+        font-family: Rubik-Regular;
+        display: flex;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.search-section {
+    display: flex;
+    justify-content: space-between;
+    // margin: 0px 165px;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: red;
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+
+    input {
+        padding: 10px;
+        // margin: 5px 0px;
+        border-radius: 5px;
+        width: 260px;
+    }
+
+    label {
+        color: #878a99 !important;
+        font-family: "Rubik-Regular" !important;
+        font-size: 14px !important;
+        letter-spacing: -0.23px !important;
+        line-height: 17px !important;
+        // top: -3px !important;
+    }
+}
+
+.containerStylee {
+    display: flex !important;
+    // padding: 0px !important;
+    // height: 100vh !important;
+    // margin: 0px 165px;
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+
+    .rightSidePartenariats {
+        // display: flex;
+        flex-direction: column;
+        .container-map {
+            justify-content: end;
+            height: -moz-fit-content;
+            height: fit-content;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            padding: 10px;
+            // width: 100%;
+            overflow: hidden;
+            display: flex;
+        }
+    }
+    .leftSidePartenariats {
+        background-color: "#cfe8fc" !important;
+        // height: "100vh";
+        .txt-partenariats-regional-style {
+            font-size: 18px;
+            color: #031c3e;
+            font-weight: bold;
+            margin-bottom: 25px;
+            font-family: Rubik-Regular;
+        }
+        .nameRegion {
+            color: #0a2344;
+            font-family: Rubik-Regular;
+            font-size: 14px;
+            letter-spacing: -0.23px;
+            line-height: 17px;
+            margin: 0px 15px;
+        }
+    }
+    .containerItemReg {
+        display: flex;
+        border: solid #f2f2f2;
+        border-width: 1px;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        .containerPin {
+            background-color: #f6f8fc;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    }
+}
+
+.containerItemTable {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tableContainer {
+    width: "100%";
+    background-color: aqua;
+    min-height: 30px;
+}
+// .muiltr-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+//     color: red !important;
+// }
+
+// .muiltr-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+//     font-family: Rubik-Regular !important;
+//     box-sizing: border-box !important;
+//     height: 40px !important;
+//     width: 260px !important;
+//     border: 1px solid #f2f2f2 !important;
+//     border-radius: 4px !important;
+//     background-color: #ffffff !important;
+
+//     font-weight: 400;
+//     font-size: 1rem;
+//     line-height: 1.4375em;
+//     letter-spacing: 0.00938em;
+//     color: rgba(0, 0, 0, 0.87);
+//     box-sizing: border-box;
+//     position: relative;
+//     cursor: text;
+//     display: -webkit-inline-box;
+//     display: -webkit-inline-flex;
+//     display: -ms-inline-flexbox;
+//     display: inline-flex;
+//     -webkit-align-items: center;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     align-items: center;
+//     position: relative;
+//     border-radius: 4px;
+// }

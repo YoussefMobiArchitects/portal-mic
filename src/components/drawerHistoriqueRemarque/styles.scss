@@ -1,0 +1,27 @@
+.header-drawer-historique-remarque {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .txt-title-header {
+        color: #202125;
+        font-family: Rubik-Regular;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: -0.33px;
+        line-height: 20px;
+    }
+    .btn-close-drawer-historique-remarque {
+        color: #202125;
+        width: 15px;
+        background-color: white !important;
+    }
+}
+.txt-direction-metier {
+    color: #242930;
+    font-family: Rubik-Regular;
+    font-size: 14px;
+    letter-spacing: -0.23px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,283 @@
+.container-detail-axe5 {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .container-title-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .rectangle-3 {
+        height: 16px;
+        width: 4px;
+        background-color: #3a497b;
+    }
+    .txt-title-list {
+        color: #3a497b;
+        font-family: ArbFONTS-Droid-Arabic-Kufi-Bold;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.22px;
+        line-height: 25px;
+        white-space: initial;
+        margin: 0px 10px;
+    }
+    .btn-add-unite-mesure {
+        color: #ffffff !important;
+        background-color: #081152 !important;
+        border: 1px solid #081152 !important;
+        font-family: ArbFONTS-Droid-Arabic-Kufi-Bold !important;
+        font-size: 13px !important;
+        height: 40px !important;
+        // margin: 0px 15px;
+    }
+    .txt-top-header-detail-axe5 {
+        height: 40px;
+        border-radius: 4px;
+        background-color: #f5f6f9;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        color: #3a497b;
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        display: flex;
+        align-items: center;
+        line-height: 16px;
+        padding: 0px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .txt-sub-header-detail-axe5 {
+        border-radius: 4px;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        color: #3a497b;
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        align-items: center;
+        line-height: 16px;
+        padding: 11px 20px;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid #e9ebec;
+        background-color: #ffffff;
+        overflow: hidden;
+        white-space: initial;
+    }
+    .rectangle-item-unite-mesure {
+        box-sizing: border-box;
+        border: 1px solid #e9ebec;
+        border-radius: 4px;
+        background-color: #ffffff;
+        padding: 15px;
+        color: #202125;
+        font-family: Rubik-Regular;
+        font-size: 15px;
+        letter-spacing: -0.25px;
+        line-height: 22px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 67px;
+    }
+    .rectangle-item-unite-mesure-first-element {
+
+        box-sizing: border-box;
+        border: 1px solid #e9ebec;
+        border-radius: 4px;
+        background-color: #ffffff;
+        padding: 15px;
+        color: #191717;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 27px;
+        height: 67px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .btn-menu-unite-mesure {
+        color: #6a769f;
+        // background-color: #ffffff;
+        height: 34px;
+        width: 34px;
+        border-radius: 20px !important;
+        border: 1px solid #e9ebec;
+    }
+    .txt-year-operation {
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #525156;
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 16px;
+    }
+    .lbl-operation {
+        border: 1px solid #f3f3f9;
+        border-radius: 4px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 0 0 #f3f3f9;
+        color: #3a497b;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.22px;
+        line-height: 25px;
+        padding: 15px;
+    }
+    .lbl-operation-done {
+        border: 1px solid #e1fcd8;
+        border-radius: 4px;
+        background-color: #f7fffa;
+        box-shadow: 0 2px 0 0 #f3f3f9;
+        color: #3a497b;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.22px;
+        line-height: 25px;
+        padding: 15px;
+    }
+    .lbl-operation-not-done {
+        border: 1px solid #fcd8d8;
+        border-radius: 4px;
+        background-color: #fff7f7;
+        box-shadow: 0 2px 0 0 #fdd8d8;
+        color: #3a497b;
+        font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -0.22px;
+        line-height: 25px;
+        padding: 15px;
+    }
+
+    .div-year {
+        border: 1px solid #f3f3f9;
+        border-radius: 4px;
+        background-color: #f5f6f9;
+        box-shadow: 0 2px 0 0 #f3f3f9;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-year-done {
+        border: 1px solid #e1fcd8;
+        border-radius: 4px;
+        background-color: #f7fffa;
+        box-shadow: 0 2px 0 0 #f3f3f9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-year-not-done {
+        border: 1px solid #fcd8d8;
+        border-radius: 4px;
+        background-color: #fff7f7;
+        box-shadow: 0 2px 0 0 #fdd8d8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-status-date {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        .div-status {
+            border-radius: 4px;
+            padding: 1px 10px;
+            color: #ffffff;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 25px;
+            font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+            font-weight: 400;
+        }
+        .div-date {
+            border-radius: 4px;
+            background-color: #f5f6f9;
+            padding: 1px 10px;
+            color: #6b779e;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 25px;
+            font-family: "Rubik-Regular";
+            font-weight: 400;
+            margin: 0px 10px;
+        }
+    }
+    .btn-menu-year {
+        color: #6a769f;
+        // background-color: #ffffff;
+        height: 34px;
+        width: 34px;
+        border-radius: 20px !important;
+        border: 1px solid #e9ebec;
+    }
+}
+.done-item-menu {
+    height: 24px;
+    width: 24px;
+    background-color: #3ece10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.not-done-item-menu {
+    height: 24px;
+    width: 24px;
+    background-color: #f51d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.done-item {
+    height: 30px;
+    width: 30px;
+    background-color: #3ece10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.not-done-item {
+    height: 30px;
+    width: 30px;
+    background-color: #f51d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.txt-done-item-menu {
+    color: #3a497b;
+    font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -0.22px;
+    line-height: 25px;
+}
+.txt-not-done-item-menu {
+    color: #3a497b;
+    font-family: ArbFONTS-Droid-Arabic-Kufi !important;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -0.22px;
+    line-height: 25px;
+}

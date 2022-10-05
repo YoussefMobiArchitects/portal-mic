@@ -1,0 +1,52 @@
+.container-deconcentration {
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+    .name-region {
+        color: #222a35;
+        font-family: ArbFONTS-Droid-Arabic-Kufi-Bold;
+        font-size: 24px;
+        letter-spacing: -0.4px;
+        line-height: 46px;
+    }
+}
+// ----------------item axe-----------------
+div[id^="id-container-item-axe-deconcentration"]:hover {
+    background-color: #f9f9fb;
+    border: 1px solid #e9ebec;
+}
+.container-item-axe-deconcentration {
+    border: 1px solid #e9ebec;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 15px 15px;
+    height: 140px;
+    cursor: pointer;
+
+    .name-axe-deconcentration {
+        border-radius: 4px;
+        width: -moz-fit-content;
+        width: fit-content;
+        color: #ffffff;
+        font-family: "ArbFONTS-Droid-Arabic-Kufi-Bold";
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        line-height: 25px;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        padding: 6px 9px;
+        margin-bottom: 20px;
+    }
+    .txt-desc-axe-deconcentration {
+        color: #202125;
+        font-family: "ArbFONTS-Droid-Arabic-Kufi-Bold";
+        font-size: 15px;
+        letter-spacing: -0.25px;
+        line-height: 22px;
+    }
+}

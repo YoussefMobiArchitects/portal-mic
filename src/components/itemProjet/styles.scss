@@ -1,0 +1,82 @@
+.container-item-projet-consult-conv {
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    .container-status-title {
+        padding: 15px 20px;
+        .div-status {
+            font-family: Rubik-Regular;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 15px;
+            width: fit-content;
+            padding: 6px 7px;
+            border-radius: 4px;
+            white-space: initial;
+            margin-bottom: 15px;
+        }
+        .sub-classname-container-box-icon-title-sub-title {
+            align-items: center !important;
+        }
+        .container-icon {
+            min-height: 54px !important;
+            min-width: 54px !important;
+            border-radius: 4px;
+            background-color: #f3f6f9;
+            color: #3577f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .txt-title-coutglobale-contribution {
+        color: #757575;
+        font-family: Rubik-Regular;
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        line-height: 15px;
+        white-space: initial;
+        margin-bottom: 5px;
+    }
+    .val-coutglobale-contribution {
+        color: #031c3e;
+        font-family: Rubik-Regular;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -0.25px;
+        line-height: 18px;
+    }
+    .header-situation-deblocage {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .txt-situation {
+            color: #757575;
+            font-family: Rubik-Regular;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 15px;
+        }
+        .val-situation {
+            color: #202125;
+            font-family: Rubik-Regular;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: -0.25px;
+            line-height: 18px;
+        }
+    }
+    .date-derniere-situation {
+        color: #757575;
+        font-family: Rubik-Regular;
+        font-size: 13px;
+        letter-spacing: -0.22px;
+        line-height: 15px;
+        white-space: initial;
+    }
+}

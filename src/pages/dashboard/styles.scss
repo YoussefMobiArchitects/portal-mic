@@ -1,0 +1,41 @@
+.dashboardStyle {
+    // padding: 0px 165px;
+    @media screen and (max-width: 600px) {
+        padding: 0px 1px;
+    }
+
+    @media screen and (min-width: 700px) {
+        padding: 0px 165px;
+    }
+
+    background-image: linear-gradient(#eff3fa, #ffffff, #ffffff);
+    .containerSides {
+        display: flex;
+        padding-top: 50px;
+    }
+    .leftSide {
+        .txt-suivi-partenariats-action-des-services-deconcentres {
+            color: #031c3e;
+            font-family: Rubik-Medium;
+            font-size: 30px;
+            letter-spacing: -0.5px;
+            line-height: 36px;
+            font-weight: bold;
+        }
+        .txt-consulter-services {
+            color: #031c3e;
+            font-family: Rubik-Regular;
+            font-size: 14px;
+            letter-spacing: -0.23px;
+            line-height: 17px;
+            margin: 20px 0px;
+            font-weight: 600;
+        }
+    }
+    .rightSide {
+        justify-content: end;
+        .img-dashboard-style {
+            width: 93%;
+        }
+    }
+}

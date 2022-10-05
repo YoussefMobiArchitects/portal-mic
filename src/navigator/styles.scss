@@ -1,0 +1,11 @@
+.App-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  width: 100%;
+  .styleBody {
+    flex-grow: 1;
+    // display: grid;
+  }
+}

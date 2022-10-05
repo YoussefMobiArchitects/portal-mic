@@ -1,0 +1,164 @@
+.container-item-conv {
+    box-sizing: border-box;
+    // height: 290px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    .icon-flag-maroc-ltr {
+        position: absolute;
+        top: -4px;
+        right: 8px;
+    }
+    .icon-flag-maroc-rtl {
+        position: absolute;
+        top: -4px;
+        left: 8px;
+    }
+
+    .top-side-conv-item {
+        padding: 20px;
+
+        .txt-date-update {
+            color: #757575;
+            font-family: Rubik-Regular;
+            font-size: 13px;
+            letter-spacing: -0.22px;
+            line-height: 15px;
+            margin-bottom: 17px;
+            display: flex;
+            .txt-val-date-update {
+                padding: 0px 5px;
+            }
+        }
+        .container-type-status {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 15px;
+            .type-conv {
+                // padding: 6px 9px;
+                // font-size: 13px;
+                // border-radius: 4px;
+                padding: 6px 9px;
+                font-size: 13px;
+                border-radius: 4px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                height: 14px;
+                white-space: nowrap;
+            }
+            .status-conv {
+                // padding: 6px 9px;
+                // font-size: 13px;
+                // border-radius: 4px;
+                margin: 0px 7px;
+                // white-space: initial;
+                padding: 6px 9px;
+                font-size: 13px;
+                border-radius: 4px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                height: 14px;
+                white-space: nowrap;
+            }
+        }
+        .txt-desc-conv {
+            color: #171f2e;
+            font-family: Rubik-Regular;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: -0.23px;
+            line-height: 22px;
+            white-space: initial;
+        }
+    }
+
+    .bottom-side-conv-item {
+        .btns-renseigne-delete-consulter {
+            padding: 15px 20px;
+            display: flex;
+
+            .btn-delete-conv-active {
+                background-color: #c6082b;
+                color: white;
+                margin: 0px 4px;
+            }
+            .btn-renseigner-conv {
+                color: #171f2f;
+                background-color: #ffffff;
+                border: 1px solid #f2f2f2;
+            }
+            button[id^="id-btn-renseigner-conv"]:hover {
+                color: #ffffff;
+                background-color: #171f2e;
+                border: 1px solid #171f2e;
+            }
+            .btn-delete-conv {
+                color: #202125;
+                border: 1px solid #f2f2f2;
+                background-color: #ffffff;
+                margin: 0px 4px;
+            }
+            button[id^="id-btn-delete-conv"]:hover {
+                background-color: #c6082b;
+                color: white;
+                margin: 0px 4px;
+            }
+            .btn-consulter-conv {
+                background-color: #ffffff;
+                height: 39px;
+                min-width: 70px;
+                border-radius: 4px;
+                font-family: Rubik-Regular;
+                color: #171f2f;
+                letter-spacing: -0.23px;
+                line-height: 17px;
+                text-align: center;
+                border: 1px solid #f2f2f2;
+                text-transform: none;
+                font-weight: 600;
+                font-size: 14px;
+                padding: 0px 15px;
+            }
+            button[id^="id-btn-consulter-conv"]:hover {
+                color: #ffffff;
+                background-color: #171f2e;
+                border: 1px solid #171f2e;
+            }
+        }
+        .date-signature-conv-item {
+            padding: 0px 20px;
+            border-top: 1px dashed #f2f2f2;
+            display: flex;
+            justify-content: space-between;
+            min-height: 50px;
+            align-items: center;
+            .txt-bottom-side {
+                color: #757575;
+                font-family: Rubik-Regular;
+                font-size: 13px;
+                letter-spacing: -0.22px;
+                line-height: 15px;
+                display: flex;
+                align-items: center;
+                .round-pen {
+                    height: 29px;
+                    width: 29px;
+                    border-radius: 29px;
+                    background-color: #f3f6f9;
+                    margin-right: 10px;
+                    color: #3577f1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .txt-date-signature {
+                    padding: 0px 5px;
+                }
+            }
+        }
+    }
+}
